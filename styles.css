@@ -1,0 +1,167 @@
+/* Start fonts */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+  
+/* End fonts */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: "Roboto", "sans-serif", serif;
+    letter-spacing: 1.5px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+}
+h1 {
+    font-size: 72px;
+    font-weight: 300;
+}
+h1 strong {
+    font-weight: 900;
+}
+h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 38px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    background: #16E0BD;
+    padding: 15px 60px;
+    border: none;
+}
+
+
+/* Start header */
+
+header {
+    background: #fff;
+}
+header .flex {
+    padding: 2rem;
+}
+header p {
+    font-size: 1.5rem;
+}
+
+/* End header */
+
+
+/* Start hero */
+
+#hero {
+    /* background-color: #aaa; */
+    padding: 8rem;
+}
+.hero-container {
+    position: relative;
+    /* background-color: lightblue; */
+    margin: 0 auto;
+    width: max-content;
+    height: 300px;
+}
+.hero-container img {
+   margin: 0 2rem 0 2rem;
+   border-radius: 150px;
+   height: 300px;
+   z-index: 2;
+}
+.hero-container h1 {
+    padding-right: 2rem;
+}
+.hero-container h3 {
+    position: absolute;
+    background: #16E0BD;
+    text-align: right;
+    letter-spacing: .5rem;
+    padding: 1rem;
+    left: 0;
+    width: 100%;
+}
+
+/* End hero */
