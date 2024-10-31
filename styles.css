@@ -98,7 +98,7 @@ h1 strong {
 }
 h2 {
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 600;
 }
 h3 {
     font-size: 38px;
@@ -106,7 +106,7 @@ h3 {
 }
 h4 {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 800;
 }
 .btn {
     font-size: 16px;
@@ -114,6 +114,12 @@ h4 {
     background: #16E0BD;
     padding: 15px 60px;
     border: none;
+}
+.line {
+    height: 1px;
+    width: 95px;
+    background: #fff;
+    margin: 0 auto 2rem auto;
 }
 
 
@@ -165,3 +171,33 @@ header p {
 }
 
 /* End hero */
+
+
+/* Start what-i-do */
+
+#what-i-do {
+    padding: 4rem 0;
+    height: 600px;
+    background: transparent url('christopher-gower-m_HRfLhgABo-unsplash.png') 
+    0% 0% no-repeat; 
+    background-size: cover;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#what-i-do h2 {
+    color: #14CFAE;
+    padding: 1rem 0;
+}
+.what-i-do-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.what-i-do-container div {
+    max-width: 30%;
+}
+.what-i-do-container div h4 {
+    padding-bottom: 1.5rem;
+}
+
+/* End what-i-do */
