@@ -30,7 +30,7 @@
     font-style: normal;
 }
   
-.roboto-black {
+.roboto- {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -66,7 +66,7 @@
     font-style: italic;
 }
   
-.roboto-black-italic {
+.roboto--italic {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
@@ -82,12 +82,15 @@
 body, html {
     font-family: "Roboto", "sans-serif", serif;
     letter-spacing: 1.5px;
+    color: #303030;
 }
 .flex {
     display: flex;
     justify-content: space-between;
 }
-.container {
+p {
+    font-size: 18px;
+    font-weight: 300;
 }
 h1 {
     font-size: 72px;
@@ -126,7 +129,16 @@ h4 {
     background: #fff;
     margin: 0 auto 2rem auto;
 }
-
+.text-bar {
+    position: absolute;
+    background: #16E0BD;
+    padding: 1rem;
+    width: 100%;
+}
+.large-text {
+    font-size: 24px;
+    letter-spacing: .25rem;
+}
 
 /* Start header */
 
@@ -165,14 +177,10 @@ header p {
 .hero-container h1 {
     padding-right: 2rem;
 }
-.hero-container h3 {
-    position: absolute;
-    background: #16E0BD;
+.hero-container .text-bar {
     text-align: right;
     letter-spacing: .5rem;
-    padding: 1rem;
     left: 0;
-    width: 100%;
 }
 
 /* End hero */
@@ -200,7 +208,7 @@ header p {
     margin: 0 auto 6rem;
 }
 .what-i-do-container div {
-    max-width: 30%;
+    max-width: 31.5%;
 }
 .what-i-do-container div h4 {
     padding-bottom: 1.5rem;
@@ -212,7 +220,34 @@ header p {
 /* Start who section */
 
 #who {
+    padding: 12rem 0;
     background: #fff;
 }
+.who-container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+#who h2 {
+    margin-bottom: 1rem;
+}
+#who .text-bar {
+    position: relative;
+    padding-left: 5%;
+    width: 110%;
+    left: -5%;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.who-body {
+    max-width: 600px;
+}
+#who img {
+    position: absolute;
+    right: 3rem;
+    height: 400px;
+    z-index: 2;
+}
+
 
 /* End who section */
