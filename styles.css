@@ -181,13 +181,15 @@ header p {
 /* Start what-i-do */
 
 #what-i-do {
-    padding: 8rem 0;
-    background: transparent url('christopher-gower-m_HRfLhgABo-unsplash.png') 
-    0% 0% no-repeat; 
-    background-size: cover;
-    background-color: black;
     color: white;
     text-align: center;
+    background: transparent url('christopher-gower-m_HRfLhgABo-unsplash.png') 
+    0% 60% no-repeat; 
+    background-size: cover;
+}
+.what-bg {
+    padding: 8rem 0;
+    background: rgba(0, 0, 0, 0.8);
 }
 #what-i-do h2 {
     color: #14CFAE;
@@ -210,7 +212,7 @@ header p {
 /* Start who section */
 
 #who {
-    height: 600px;
+    background: #fff;
 }
 
 /* End who section */
