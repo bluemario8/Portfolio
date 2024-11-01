@@ -251,3 +251,33 @@ header p {
 
 
 /* End who section */
+
+
+/* Start my work section */
+
+#my-work {
+    background: #303030;
+    padding: 12rem 0;
+    color: #fff;
+    text-align: center;
+}
+#my-work h2 {
+    margin-bottom: 1rem;
+}
+#my-work h4 {
+    color: #16E0BD;
+    margin-bottom: 1rem;
+}
+.who-list {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.work-img img {
+    width: 20%;
+    height: auto;
+}
+
+
+/* End my work section */
