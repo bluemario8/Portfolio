@@ -114,6 +114,11 @@ h4 {
     background: #16E0BD;
     padding: 15px 60px;
     border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover {
+    background: #fff;
 }
 .line {
     height: 1px;
@@ -176,8 +181,7 @@ header p {
 /* Start what-i-do */
 
 #what-i-do {
-    padding: 4rem 0;
-    height: 600px;
+    padding: 8rem 0;
     background: transparent url('christopher-gower-m_HRfLhgABo-unsplash.png') 
     0% 0% no-repeat; 
     background-size: cover;
@@ -201,3 +205,12 @@ header p {
 }
 
 /* End what-i-do */
+
+
+/* Start who section */
+
+#who {
+    height: 600px;
+}
+
+/* End who section */
