@@ -98,7 +98,7 @@ h1 strong {
 }
 h2 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 800;
 }
 h3 {
     font-size: 38px;
@@ -191,7 +191,7 @@ header p {
 }
 .what-i-do-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 6rem;
 }
 .what-i-do-container div {
     max-width: 30%;
