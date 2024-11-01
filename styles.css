@@ -295,3 +295,51 @@ header p {
 
 
 /* End my work section */
+
+
+/* Start footer */
+
+footer {
+    padding: 6rem 0; 
+    background-color: #141414;
+    color: #16E0BD;
+    text-align: center;
+    border-top: 2px solid #363636;
+}
+footer h4 {
+    margin-bottom: 2rem;
+}
+.footer-socials {
+    margin: 0 auto;
+    width: min-content;
+    list-style: none;
+    font-size: 1.8rem;
+}
+.footer-socials li:first-child {
+    margin-left: 0;
+}
+.footer-socials li {
+    margin-left: 3rem;
+}
+
+.icon-github,
+.icon-youtube,
+.icon-twitter,
+.icon-instagram {
+    color: #16E0BD;
+    transition: 0.2s;
+}
+.icon-github:hover {
+    color: #fff;
+}
+.icon-youtube:hover {
+    color: #f22;
+}
+.icon-twitter:hover {
+    color: #00a2f5;
+}
+.icon-instagram:hover {
+    color: #f2f;
+}
+
+/* End footer */
