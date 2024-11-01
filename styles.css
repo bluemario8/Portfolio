@@ -266,15 +266,17 @@ header p {
 }
 #my-work h4 {
     color: #16E0BD;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .who-list {
     list-style: none;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .work-img {
     overflow: hidden;
+    margin-bottom: .5rem;
 }
 .work-img img {
     /* border: 2px solid #303030; */
