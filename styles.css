@@ -215,6 +215,10 @@ header p {
     padding-bottom: 1.5rem;
 }
 
+.resume-btn {
+    border: 2px solid #16E0BD;
+}
+
 /* End what-i-do */
 
 
@@ -222,7 +226,7 @@ header p {
 
 #who {
     padding: 12rem 0;
-    background: #fff;
+    background: #f0f0f0;
 }
 .who-container {
     position: relative;
